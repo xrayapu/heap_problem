@@ -9,7 +9,7 @@ def sol(arr, k, x):
     for _ in range(k):
         it=heapq.heappop(min_heap)[1] 
         ans.append(it)
-
+    #ans.sort() # used for leetcode type testcase ! 
     return ans
 
 
