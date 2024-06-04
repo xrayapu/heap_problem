@@ -2,6 +2,7 @@
 # problem 10: find total sum between k1 and k2 smallest numbers.
 
 # input : [1,3,12,5,15,11] k1=3 and k2=6
+# [1,3,5,11,12,15] -> 11+12=23
 
 import heapq
 def helper(arr,k):
