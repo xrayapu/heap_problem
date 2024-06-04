@@ -17,7 +17,7 @@ def sol(arr,k1,k2):
     small1= helper(arr,k1)
    
     small2= helper(arr,k2)
-    print(small1,small2)
+    #print(small1,small2)
     for num in arr:
         if num > small1 and num< small2:
             total+=num
